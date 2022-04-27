@@ -30,7 +30,7 @@ img{
     
 }
 .listas-header:hover{
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -40,9 +40,14 @@ img{
 
 }
 
-h1{
+.h1-puntual{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    animation-name: animacion-h1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    
 }
 
 .listas{
@@ -54,20 +59,30 @@ h1{
 }
 
 
-
-
 .listas li{
     display: inline;
     
     
 }
 
+.listas-inicio{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    
+}
+
+.listas-inicio li{ 
+    display: inline;  
+}
+
+
 
 
 h2{
    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
 }
 
 header{
@@ -103,28 +118,41 @@ p{
 
  
     .listas{
-       
-       
-        display: flex
-       
-        
+       display: flex
+         
     }
 
     .listas li{
-        border: solid 1px black;
-        transition: all .5s ease ease-in-out;
-    }
-
-  
-
-    .listas li:hover{
-        transform: translateY(25px)
+        border: solid 1px black;  
+        display: flex; 
+        flex-wrap: wrap;
         
     }
+
     img{
         width: 50%;
-        padding: 60px  ;        
+        padding: 60px ;        
     }
-   
+}
 
+
+.listas li{
+    border: solid 1px black;
+    transition: all .3s ease-in-out;  
+}
+
+.listas li:hover{
+   transform: skew(20deg); 
+}
+
+@keyframes animacion-h1 {
+
+    0% {
+      background-color: aqua;  
+    }
+    
+    25%{
+       background-color: black;
+        
+    }  
 }
