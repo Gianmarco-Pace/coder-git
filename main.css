@@ -10,7 +10,12 @@
     "main"
     "aside"
     "footer"
-    ;     
+    ;
+    
+    animation-name: animacion-body;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
 }
 
 img{
@@ -137,7 +142,7 @@ p{
 
 
 .listas li{
-    border: solid 1px black;
+    border: solid 1px rgb(36, 146, 8);
     transition: all .3s ease-in-out;  
 }
 
@@ -147,12 +152,29 @@ p{
 
 @keyframes animacion-h1 {
 
-    0% {
-      background-color: aqua;  
+    0% {  
+        background-color: black;
+        
+        
+
     }
     
     25%{
-       background-color: black;
-        
+        background-color: aqua;  
     }  
+
+    
+}
+
+@keyframes animacion-body {
+    0% {
+        background-color: bisque;
+    }
+    10% {
+        background-color: grey;
+    }
+
+    40%{
+        background-color: indigo;
+    }
 }
