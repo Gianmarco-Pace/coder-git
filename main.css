@@ -1,5 +1,6 @@
 .container  {
-    background-color: #6d6d6d ;
+     background-color: rgb(105, 105, 172);
+
     padding: 3px;
 
     display: grid;
@@ -114,14 +115,25 @@ p{
     text-align: center;
     display:flex ;
 }
-
-@media screen and (min-width:768px) {
+.footer ul li{
     
+    border: solid black 2px;
+    display: inline;  
+    padding: 1px;
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+
+@media screen and (min-width:768px)  { 
  
+    
     .listas{
        display: flex
          
-    }
+    } 
 
     .listas li{
         border: solid 1px black;  
@@ -136,17 +148,33 @@ p{
     }
 
     .listas-inicio{
+        text-align: center;
         display: flex;
-        flex-wrap: nowrap
-        width: 50%;
+        flex-wrap: nowrap;
         
+        
+        
+    }
+
+    .footer{
+        text-align: center;
+    }
+    .footer ul li{
+        display: inline;
+
     }
 
 
 }
 
-
-
+@media screen and (min-width:1440px) {
+    
+     .listas-inicio{
+       justify-content: space-around;
+        
+     }  
+ }
+ 
 .listas li{
     border: solid 1px black;
     transition: all .3s ease-in-out;  
