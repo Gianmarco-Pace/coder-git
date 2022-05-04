@@ -1,6 +1,7 @@
-.contenedor  {
-    background-color: bisque ;
+.container  {
+    background-color: #6d6d6d ;
     padding: 3px;
+
     display: grid;
     
     
@@ -14,6 +15,7 @@
 }
 
 img{
+    width:100%
 
     
     
@@ -55,6 +57,7 @@ img{
     
     
 }
+
 
 
 .listas li{
@@ -113,7 +116,7 @@ p{
 }
 
 @media screen and (min-width:768px) {
-
+    
  
     .listas{
        display: flex
@@ -128,10 +131,20 @@ p{
     }
 
     img{
-        width: 50%;
-        padding: 60px ;        
+        width: 100%;
+         padding: 10px;  
     }
+
+    .listas-inicio{
+        display: flex;
+        flex-wrap: nowrap
+        width: 50%;
+        
+    }
+
+
 }
+
 
 
 .listas li{
@@ -154,3 +167,4 @@ p{
         
     }  
 }
+
