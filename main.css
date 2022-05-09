@@ -14,13 +14,14 @@
     "footer"
     ;     
 }
+ 
 
-img{
-    width:100%
+/* img{
+    width:100% 
 
     
     
-} 
+} */
 
 
 
@@ -113,7 +114,7 @@ footer{
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    display:flex ;
+    
 }
 .footer ul li{
     
@@ -142,10 +143,10 @@ p{
         
     }
 
-    img{
+    /* img{
         width: 100%;
          padding: 10px;  
-    }
+    } */
 
     .listas-inicio{
         text-align: center;
@@ -173,7 +174,12 @@ p{
        justify-content: space-around;
         
      }  
+
+     
  }
+
+
+
  
 .listas li{
     border: solid 1px black;
