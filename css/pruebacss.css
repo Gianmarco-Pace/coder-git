@@ -1,7 +1,11 @@
 .container {
   background-color: #6969ac;
   display: grid;
-  grid-template-areas: "nav" "header" "main" "aside" "footer"; }
+  grid-template-areas: "nav"
+ "header"
+ "main"
+ "aside"
+ "footer"; }
 
 .listas-header {
   background-color: #bedbdc;
