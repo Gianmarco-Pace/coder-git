@@ -1,0 +1,16 @@
+.listas li:hover{
+    transform: skew(20deg); 
+ }
+ 
+ @keyframes animacion-h1 {
+ 
+     0% {
+       background-color: aqua;  
+     }
+     
+     25%{
+        background-color: black;
+         
+     }  
+ }
+ 

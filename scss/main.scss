@@ -1,0 +1,111 @@
+
+
+.container  {
+    background-color: #6969ac;
+   display: grid;
+   grid-template-areas: 
+   "nav"
+   "header"
+   "main"
+   "aside"
+   "footer"
+   ;     
+}
+
+.listas-header{
+   background-color: #bedbdc;
+   font-family: 'Courier New', Courier, monospace;
+   list-style-type: none;
+   text-align: center;
+   transition: all .3s ease-in-out;
+   
+}
+.listas-header:hover{
+   background-color: rgb(255, 255, 255);
+}
+
+
+
+.listas-header li{
+  display: inline;
+
+}
+
+.h1-puntual{
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+
+   
+}
+
+.listas{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   list-style-type: none;
+   
+   
+}
+
+
+
+.listas li{
+   display: inline;
+   
+   
+}
+
+.listas-inicio{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   list-style-type: none;
+   
+}
+
+.listas-inicio li{ 
+   display: inline;  
+}
+
+
+
+
+h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+header{
+   grid-area: header ;
+   
+}
+
+nav{
+   grid-area: nav;
+}
+
+main{
+   grid-area: main;
+
+}
+
+aside{
+   grid-area: aside;
+}
+
+footer{
+   grid-area: footer;
+}
+
+
+p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   
+}
+.footer ul li{
+   
+   display: flex;
+   display: inline;  
+   padding: 1px;
+   list-style-type: none;
+}

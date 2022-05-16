@@ -1,0 +1,64 @@
+@media screen and (min-width:768px)  { 
+ 
+    
+    .listas{
+       display: flex
+         
+    } 
+
+    .listas li{
+        border: solid 1px black;  
+        display: flex; 
+        flex-wrap: wrap;
+        
+    }
+
+    
+
+    .listas-inicio{
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        
+        
+        
+    }
+
+    .footer{
+        text-align: center;
+    }
+    .footer ul li{
+        display: inline;
+
+    }
+    
+    .img{
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+       width: 70%; 
+       margin: 0 auto;
+        height: 500px;
+     }
+
+
+}
+
+@media screen and (min-width:1440px) {
+
+    .img{
+       padding:20px; 
+    }
+   
+   .listas-inicio{
+      justify-content: space-around;
+      max-width: 50px;
+       width: 100%;
+  }
+    
+}
+
+
+.listas li{
+   border: solid 1px black;
+   transition: all .3s ease-in-out;  
+}

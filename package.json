@@ -1,0 +1,25 @@
+{
+  "name": "coder-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css" : "node-sass --include-patch scss scss/prueba.scss  css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gianmarco-Pace/coder-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gianmarco-Pace/coder-git/issues"
+  },
+  "homepage": "https://github.com/Gianmarco-Pace/coder-git#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
