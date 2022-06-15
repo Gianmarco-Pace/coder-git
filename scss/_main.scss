@@ -26,6 +26,7 @@
 
 .img-1{
    display: flex;
+   
 }
 
 
@@ -49,7 +50,9 @@
    
 }
 
-
+.h3 { 
+   text-align: center;
+}
 
 .listas li{
    display: inline;
@@ -67,9 +70,6 @@
 .listas-inicio li{ 
    display: inline;  
 }
-
-
-
 
 h2{
   text-align: center;
@@ -113,6 +113,3 @@ p{
    list-style-type: none;
 }
 
-.img {
-   display: flex;
-}
